@@ -1,0 +1,20 @@
+{
+    "name": "laravelless/lessphp",
+    "description": "Lessphp leafo for Laravel 5",
+    "keywords": ["laravel","less"],
+    "license": "HRAFIEE",
+    "authors": [
+        {
+            "name": "Hossein Rafiee",
+            "email": "h.rafiee91@gmail.com"
+        }
+    ],
+    "require": {
+        "leafo/lessphp": "0.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravelless\\Lessphp\\": "src/"
+        }
+    }
+}
