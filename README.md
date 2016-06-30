@@ -5,7 +5,6 @@ LESS with your Laravel. Using [Leafo.php](http://leafo.net)
 # Features
 - Can modify LESS variables on-the-fly
 - Can parse custom CSS/LESS and append it to the resulting file
-- Works with Twitter Bootstrap v3.3.5 (thanks to oyejorge/less.php)
 - Caching support
 # Installation 
  You need [composer](https://getcomposer.org/) to install.
