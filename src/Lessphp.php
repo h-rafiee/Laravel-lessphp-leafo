@@ -22,7 +22,7 @@ class Lessphp {
         $lessfile = $this->config['less_path'].DIRECTORY_SEPARATOR."{$filename}.less";
         $cssfile =  $this->config['css_path'].DIRECTORY_SEPARATOR."{$filename}.css";
         $this->less->compileFile($lessfile,$cssfile);
-        return url("css/{$filename}.css");
+        return url($this->config['prefix_url']."css/{$filename}.css");
     }
 
     public function cacheCompile($filename,$out_file_name = null){
@@ -31,7 +31,7 @@ class Lessphp {
         $lessfile = $this->config['less_path'].DIRECTORY_SEPARATOR."{$filename}.less";
         $cssfile =  $this->config['css_path'].DIRECTORY_SEPARATOR."{$out_file_name}.css";
         $this->autoCompileLess($lessfile,$cssfile);
-        return url("css/{$out_file_name}.css");
+        return url($this->config['prefix_url']."css/{$out_file_name}.css");
     }
 
     private function autoCompileLess($inputFile, $outputFile) {
