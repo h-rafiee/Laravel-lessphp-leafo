@@ -2,7 +2,7 @@
     "name": "laravelless/lessphp",
     "description": "Lessphp leafo for Laravel 5",
     "keywords": ["laravel","less"],
-    "license": "HRAFIEE",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hossein Rafiee",
