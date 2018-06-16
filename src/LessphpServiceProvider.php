@@ -30,7 +30,7 @@ class LessphpServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        require __DIR__.'../../leafo/lessphp/lessc.inc.php';
+        require __DIR__.'/../../leafo/lessphp/lessc.inc.php';
     }
 
     public function provides()
